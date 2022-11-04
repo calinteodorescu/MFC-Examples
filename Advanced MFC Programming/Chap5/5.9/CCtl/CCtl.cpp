@@ -23,7 +23,6 @@ CCCtlApp theApp;
 BOOL CCCtlApp::InitInstance()
 {
 #ifdef _AFXDLL
-	Enable3dControls();
 #else
 	Enable3dControlsStatic();
 #endif
